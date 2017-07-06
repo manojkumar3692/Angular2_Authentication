@@ -1,28 +1,24 @@
-# ParkingApp
+# Role based authentication in Angular 2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
+Consider our application is for a apartment user , there are two roles now 
+Resident ( which performs some action like pay maintance etc)
+Admin ( Manages the entire account )
+Our agenda from client side would to hide or restrict certain elements for a particular user based on the role . In short role-based authentication is an approach to restricting system access to authorized users.
+I have my best to make it simple and understanding
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+I have used Angular Cli for building this application.
+Run npm install 
+Run ng serve
+The site will openup in localhost:4200
 
-## Code scaffolding
+## Admin Credential 
+ username :  admin
+ password : admin
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+## resident Credential
+ username: A001
+ password : open@A001
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
